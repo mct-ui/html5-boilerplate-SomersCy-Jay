@@ -98,15 +98,18 @@ hr {
 }
 
 a {
-
-}
-
-a:hover,
-a:focus {
-
+    color: royalblue;
+    transition: all .1s ease-in-out;
 }
 
 a:visited,
 a:active {
-    
+    color: BlueViolet;
 }
+
+a:hover,
+a:focus {
+    color: Crimson;
+}
+
+
